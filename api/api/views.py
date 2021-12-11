@@ -9,3 +9,13 @@ def index(request):
         return JsonResponse({
             'response': 'hi'
         })
+
+
+@api_view(['GET'])
+def default(request, string='invalid'):
+    if request.method == 'GET':
+        return JsonResponse({
+            'response': string
+        })
+
+
