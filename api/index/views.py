@@ -6,6 +6,9 @@ from rest_framework.decorators import api_view
 @api_view(['GET'])
 def welcome(request):
     if request.method == 'GET':
-        return render(request, "index/tst.html")
         return render(request, "index/welcome.html")
         
+@api_view(['GET'])
+def tst(request):
+    if request.method == 'GET':
+        return render(request, "index/tst.html")
