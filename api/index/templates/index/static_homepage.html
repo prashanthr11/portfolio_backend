@@ -1,13 +1,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content=" initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Legacy Polyfills -->
-    <script nomodule="" src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js"></script>
-    <script nomodule="" src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js"></script>
-    <script nomodule="" src="https://polyfill.io/v3/polyfill.min.js?features=fetch"></script>
-    <script src="https://kit.fontawesome.com/58f9538d0d.js" crossorigin="anonymous"></script>
+
     <!-- Initial CSS -->
     <style data-url="https://static.parastorage.com/services/wix-thunderbolt/dist/ab-test-compilation/main.ab700508.min.css">
       a,
@@ -89,6 +85,7 @@
       ::-webkit-scrollbar {
         width: 12px;
       }
+
 
       ::-webkit-scrollbar-thumb {
         border-radius: 10px;
@@ -4836,7 +4833,7 @@
     </style>
     <title>Prashanth | Software Engineer</title>
   </head>
-  <body class="">
+  <body class="body_class" data-is-mobile>
     <!--pageHtmlEmbeds.bodyStart start-->
     <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.bodyStart start"></script>
     <script type="wix/htmlEmbeds" id="pageHtmlEmbeds.bodyStart end"></script>
@@ -4927,9 +4924,7 @@
           --site-width: 980px;
           --above-all-z-index: 100000;
           --portals-z-index: 100001;
-          --minViewportSize: 320;
           --color_26: 248, 217, 170;
-          --maxViewportSize: 1920
         }
 
         .font_0 {
@@ -9770,5 +9765,12 @@
       }
     </script>
     <!-- warmup data end -->
+
+    <script>
+      window.addEventListener("load", function () {
+        alert('This Site Under developement! Please use the desktop mode');
+      })
+    </script>
+
   </body>
 </html>
